@@ -1,0 +1,19 @@
+.btn{
+    display: inline-block;
+    font-size: 14px;
+    line-height: 20px;
+    text-align: center;
+    border: 1px solid #ccc;
+    background-color: #ccc;
+    border-radius: 6px;
+    color: #fff;
+    padding: 10px 15px;
+}
+.btn-primary{
+    background-color: #39f;
+}
+.btn-reverse{
+    border: 1px solid #39f;
+    background-color: #fff;
+    color: #39f;
+}

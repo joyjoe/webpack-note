@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title><%= htmlWebpackPlugin.options.title %></title>
+    <!-- <script src="https://cdn.bootcss.com/underscore.js/1.9.1/underscore.js"></script> -->
+    <!-- <script src="https://cdn.bootcss.com/jquery/3.3.1/jquery.js"></script> -->
+</head>
+<body>
+    <p>&lt;%= htmlWebpackPlugin.options.title%&gt;</p>
+    <div id="app"></div>
+    <div class="panel">
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eius, laudantium?</p>
+        <button class="btn">标准按钮</button>
+        <button class="btn btn-primary">主题按钮</button>
+        <button class="btn btn-reverse">幽灵按钮</button>
+    </div>
+    <div class="img-list">
+        <div class="item"></div>
+    </div>
+    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus, dolorum.</p>
+    <div class="img-panel"></div>
+    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Explicabo, perspiciatis.</p>
+    <div class="img-gallery">
+        <div class="img-item item2"></div>
+        <div class="img-item item3"></div>
+        <div class="img-item item4"></div>
+        <div class="img-item item5"></div>
+    </div>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quae, reprehenderit!</p>
+    <i class="iconfont icon-yaopin"></i>
+    <i class="iconfont icon-shouye"></i>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates, nihil.</p>
+    <!-- <img src="./src/assets/images/avatar/2.jpg" alt=""> -->
+    <img src="${require('./src/assets/images/avatar/2.jpg')}" alt="">
+</body>
+</html>

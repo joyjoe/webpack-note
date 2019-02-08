@@ -1,0 +1,21 @@
+.panel{
+    padding: 10px;
+}
+
+.btn-primary{
+    background-color: #f51a00;
+}
+
+.btn-secondary{
+    background-color: #fa0;
+}
+
+.img-list{
+    display: flex;
+}
+.img-list .item{
+    flex: 1;
+    height: 400px;
+    background: url("../images/1.jpeg") no-repeat;
+    background-size: cover;
+}

@@ -1,0 +1,111 @@
+@charset "utf-8";
+
+@mixin flex($direction: column) {
+    display: flex;
+    flex-direction: $direction;
+    flex-wrap: nowrap;
+}
+
+.table{
+    @include flex(row); 
+}
+
+@mixin silly-links {
+    a {
+      color: blue;
+      background-color: red;
+    }
+}
+@include silly-links;
+
+.img-panel{
+    width: 300px;
+    height: 167px;
+    background: url("../images/1.jpeg") no-repeat;
+    background-size: cover;
+}
+
+.img-gallery:after{
+    content: "";
+    height: 0;
+    display: table;
+    clear: both;
+}
+
+.img-gallery .img-item{
+    float: left;
+    width: 150px;
+    height: 150px;
+}
+
+.img-gallery .img-item.item2{
+    background: url("../images/avatar/2.jpg") no-repeat;
+    background-position: 0 0;
+}
+.img-gallery .img-item.item3{
+    background: url("../images/avatar/3.jpg") no-repeat;
+    background-position: 0 0;
+}
+.img-gallery .img-item.item4{
+    background: url("../images/avatar/4.jpg") no-repeat;
+    background-position: 0 0;
+}
+.img-gallery .img-item.item5{
+    background: url("../images/avatar/5.jpg") no-repeat;
+    background-position: 0 0;
+}
+
+
+/* 定义字体 */ 
+@font-face {font-family: "iconfont";
+    src: url('../fonts/ihot/iconfont.eot?t=1549380387874'); /* IE9 */
+    src: url('../fonts/ihot/iconfont.eot?t=1549380387874#iefix') format('embedded-opentype'), /* IE6-IE8 */
+    url('data:application/x-font-woff2;charset=utf-8;base64,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') format('woff2'),
+    url('../fonts/ihot/iconfont.woff?t=1549380387874') format('woff'),
+    url('../fonts/ihot/iconfont.ttf?t=1549380387874') format('truetype'), /* chrome, firefox, opera, Safari, Android, iOS 4.2+ */
+    url('../fonts/ihot/iconfont.svg?t=1549380387874#iconfont') format('svg'); /* iOS 4.1- */
+  }
+
+  .iconfont {
+    font-family: "iconfont" !important;
+    font-size: 16px;
+    font-style: normal;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+  
+  .icon-shouye:before {
+    content: "\e73d";
+  }
+  
+  .icon-yaopin:before {
+    content: "\e73f";
+  }
+  
+  .icon-xiaoxi:before {
+    content: "\e740";
+  }
+  
+  .icon-yongyao:before {
+    content: "\e741";
+  }
+  
+  .icon-xihuan:before {
+    content: "\e742";
+  }
+  
+  .icon-wode:before {
+    content: "\e743";
+  }
+  
+  .icon-anquan:before {
+    content: "\e744";
+  }
+  
+  .icon-lishi:before {
+    content: "\e745";
+  }
+  
+  .icon-xiangji:before {
+    content: "\e748";
+  }

@@ -1,0 +1,18 @@
+.hello{
+    color: red;
+}
+.gallery{
+    width: 300px;
+    height: 150px;
+    background-image: url("./assets/1.jpeg");
+    background-size: contain;
+}
+.copy{
+    width: 300px;
+    height: 150px;
+    overflow: hidden;
+}
+.copy img{
+    display: block;
+    width: 100%;
+}
