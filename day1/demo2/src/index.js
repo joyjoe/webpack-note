@@ -1,0 +1,12 @@
+document.write('<h1 style="text-align:center;">使用webpack4构建</h1>');
+document.write("webpack4内置了最简单的配置,不需要我们手动定义webpack.config.js文件<br>");
+document.write("将如下命令添加到package.json文件的scripts脚本中<br>");
+document.write('<pre>"webpack": "webpack"</pre>');
+document.write("执行如下命令就可以打包构建<br>");
+document.write("<pre>npm run webpack</pre>");
+document.write('<p style="color: red;">webpack4注意事项</p>');
+document.write("在webpack4中最好指定--mode参数<br>");
+document.write('<pre>"webpack:build": "webpack --mode production"</pre>');
+document.write('<pre>"webpack:dev": "webpack --mode development"</pre>');
+document.write("使用webpack4一定要安装webpack-cli <br>");
+document.write("<pre>npm install webpack-cli --save-dev</pre>");
