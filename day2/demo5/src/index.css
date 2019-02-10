@@ -1,0 +1,7 @@
+.gallery{
+    width: 300px;
+}
+.gallery img{
+    display: block;
+    width: 100%;
+}

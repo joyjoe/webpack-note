@@ -1,13 +1,17 @@
 {
     "root": true,
+    "parserOptions": {
+        "sourceType": "module"
+    },
     "extends": "eslint:recommended",
     "env": {
         "browser": true,
         "node": true,
-        "commonjs": true,
-        "es6": true
+        "es6": true,
+        "commonjs": true
     },
     "rules": {
-        "indent": ["error", 4]
+        "indent": ["error", 4],
+        "no-console": "off"
     }
 }
