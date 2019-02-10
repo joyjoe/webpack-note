@@ -7,3 +7,8 @@ Projects built in conjunction with a series of articles (webpack learning tour)
 webpack安装与基本使用
 
 [how to install webpack and basic usage](https://www.cnblogs.com/joyjoe/p/7074820.html)
+
+# day2
+如何处理各种格式的文件
+
+[How to handle files in various formats](https://www.cnblogs.com/joyjoe/p/10359112.html)
