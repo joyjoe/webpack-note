@@ -1,0 +1,11 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <title><%= htmlWebpackPlugin.options.title %></title>
+</head>
+<body>
+    <!-- 查看这个comment注释是否被移除,同时Input标签的type与a标签的name特性是否被移除 -->
+    <input type="text">
+    <a href="javascript:void(0);" name="b" id="b">通过开发者工具查看源码可以发现Input输入框并没有type而这个链接也没有name特性</a>
+</body>
+</html>

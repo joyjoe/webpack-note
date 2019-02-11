@@ -4,7 +4,7 @@ const htmlWebpackPlugin = require("html-webpack-plugin");
 const cleanWebpackPlugin = require("clean-webpack-plugin");
 const extractTextWebpackPlugin = require("extract-text-webpack-plugin");
 const InlineChunkManifestHtmlWebpackPlugin = require('inline-chunk-manifest-html-webpack-plugin');
-const BundleAnalyzerPlugin = require("webpack-bundle-analyzer").BundleAnalyzerPlugin
+// const BundleAnalyzerPlugin = require("webpack-bundle-analyzer").BundleAnalyzerPlugin
 
 const CSSLoaderConfig = {
     // modules: true,

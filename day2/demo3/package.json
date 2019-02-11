@@ -2,7 +2,7 @@
   "name": "demo3",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "private": true,
   "scripts": {
     "webpack": "webpack --config webpack.config.js"
   },

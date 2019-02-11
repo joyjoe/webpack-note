@@ -12,3 +12,8 @@ webpack安装与基本使用
 如何处理各种格式的文件
 
 [How to handle files in various formats](https://www.cnblogs.com/joyjoe/p/10359112.html)
+
+# day3
+如何生成自定义Html文件
+
+[How to generate custom Html files](https://www.cnblogs.com/joyjoe/p/10361724.html)
